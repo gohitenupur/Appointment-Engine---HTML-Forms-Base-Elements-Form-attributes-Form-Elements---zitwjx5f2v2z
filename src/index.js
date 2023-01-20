@@ -56,7 +56,13 @@ app.post('/api/events/:date',(req,res)=>{
                 })
         }
     })
-   
+    
+    
+    
+
+    // const sql=`update events set slot1=${body[0]} slot2=${body[1]} slot3=${body[2]} slot4=${body[3]} slot5=${body[4]} slot6=${body[5]} slot7=${body[6]} slot8=${body[7]} slot9=${body[8]} slot10=${body[9]} slot11=${body[10]} slot12=${body[11]} slot13=${body[12]} slot14=${body[13]} where date="${d}" `
+    
+    // console.log(sql)
 })
 
 app.get('/api/names',(req,res)=>{
